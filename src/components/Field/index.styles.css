@@ -1,0 +1,32 @@
+.fieldContainer {
+    background-color: rgb(133, 133, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.buttomArea {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.buttomComponent {
+    height: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttomComponent:hover {
+    background-color: blueviolet;
+}
+
+.inputField {
+    height: 30px;
+    font-size: 1.5rem;
+    width: 3rem;
+}
